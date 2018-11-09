@@ -1,0 +1,132 @@
+body {
+	background-color: #82C1FF;
+}
+
+h1 {
+	color: #020742;
+	grid-area: 1 / 1 / span 1 / span 10;
+	border: 2px black solid;
+	font-weight: bold;
+	font-size: 35px;
+	font-family: 'Spicy Rice', cursive;
+}
+
+img {
+	height: 400px;
+	width: 400px;
+}
+p {
+	font-size: 25px;
+	font-family: 'Comfortaa', cursive;
+}
+
+a {
+	font-size: 20px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.head {
+	grid-column: span 10;
+}
+
+.link {
+	grid-area: 2 / 9 / span 1 / span 2;
+	border: 2px black solid;
+	text-align: center;
+}
+
+.art {
+	grid-area: 2 / 1 / span 2 / span 4;
+}
+	
+.music {
+	grid-area: 4 / 6 / span 2 / span 4;
+}
+
+.acting {
+	grid-area: 6 / 1 / span 2 / span 4;
+}
+
+.dance {
+	grid-area: 8 / 7 / span 2 / span 4;
+}
+
+.artp {
+	grid-area: 2 / 6 / span 2 / span 3;
+}
+
+.musicp {
+	grid-area: 4 / 1 / span 2 / span 4;
+}
+
+.actingp {
+	grid-area: 6 / 6 / span 2 / span 4;
+}
+
+.dancep {
+	grid-area: 8 / 1 / span 2 / span 4;
+}
+
+.ctap {
+	grid-area: 2 / 2 / span 3 / span 6;
+}
+
+.importance {
+	grid-area: 2 / 1 / span 2 / span 8;
+	font-size: 25px;
+	font-family: 'Comfortaa', cursive;
+}
+
+.importancep {
+	grid-area: 5 / 1 / span 2 / span 8;
+	font-size: 25px;
+	font-family: 'Comfortaa', cursive;
+}
+
+.whyp {
+	grid-area: 2 / 1 / span 2 / span 8;
+	font-size: 25px;
+	font-family: 'Comfortaa', cursive;
+}
+
+.whypp {
+	grid-area: 5 / 1 / span 2 / span 9;
+	font-size: 25px;
+	font-family: 'Comfortaa', cursive;
+}
+
+.dollar {
+	grid-area: 3 / 4 / span 2 / span 3;
+}
+
+.tree {
+	grid-area: 3 / 4 / span 2 / span 3;
+}
+
+.number {
+	grid-area: 3 / 3 / span 1 / span 4;
+	font-size: 100px;
+}
+
+.thumb {
+	grid-area: 4 / 4 / span 2 / span 4;
+}
+
+.finearts {
+	grid-area: 3 / 4 / span 2 / span 2;
+	height: 600px;
+	width: 600px;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	font-size: 20px;
+}
