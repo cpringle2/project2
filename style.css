@@ -115,11 +115,22 @@ a {
 	grid-area: 4 / 4 / span 2 / span 4;
 }
 
-.finearts {
-	grid-area: 3 / 4 / span 2 / span 2;
-	height: 600px;
-	width: 600px;
+.musicpic {
+	grid-area: 2 / 1 / span 2 / span 2;
 }
+
+.artpic {
+	grid-area: 2 / 4 / span 2 / span 2;
+}
+
+.dancepic {
+	grid-area: 4 / 2 / span 2 / span 2;
+}
+
+.dramapic {
+	grid-area: 4 / 6 / span 2 / span 2;
+}
+
 
 a:visited {
 	color: white;
